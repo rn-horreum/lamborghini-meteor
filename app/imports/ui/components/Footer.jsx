@@ -4,10 +4,11 @@ import { Container, Header, Image, Menu, Icon, Dropdown, Grid, List } from 'sema
 export default class Footer extends React.Component {
   render() {
     const itemStyle = { color: "white" };
+    const paddingTop = { paddingTop: "10px", marginTop: "14px" };
     return (
         <div className="footer-background">
           <div className="ui four column grid container">
-            <List className="column">
+            <List className="column" style = {paddingTop}>
               <List.Item>MODELS</List.Item>
               <hr/>
 
